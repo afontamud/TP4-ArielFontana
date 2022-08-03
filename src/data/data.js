@@ -1,10 +1,9 @@
 export const productList = [
     {
       name: 'Sublime Hope Dose',
-      price: 240,
-      thumbnail:
-        'https://cdn.shopify.com/s/files/1/0424/8371/2152/products/prod-3a.png?v=1612329206',
-      stock: 7,
+      price: 7399,
+      thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/distresseddd21-53d912071a01d6b6a016522132263631-640-0.png',
+      stock: 6,
       description:
         'Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras...',
       size: 'L',
@@ -14,9 +13,8 @@ export const productList = [
     },
     {
       name: 'Hopped Sublime Dose',
-      price: 260,
-      thumbnail:
-        'https://cdn.shopify.com/s/files/1/0424/8371/2152/products/prod-1_90b71638-4da6-46bb-863f-455971fd0fe5.png?v=1599631991',
+      price: 13599,
+      thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/veneno-1-0-r04-negra1-34599e99f4e52a291a16494415016705-640-0.png',
       stock: 10,
       description:
         'Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras...',
@@ -27,9 +25,8 @@ export const productList = [
     },
     {
       name: 'Curious Tiki Aura',
-      price: 275,
-      thumbnail:
-        'https://cdn.shopify.com/s/files/1/0424/8371/2152/products/prod-2.png?v=1599631979',
+      price: 10599,
+      thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/sad-world31-4ce56a632ec8016b2216589328486173-640-0.png',
       stock: 6,
       description:
         'Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras...',
@@ -37,6 +34,18 @@ export const productList = [
       vendor: 'Bubbling Brews',
       type: 'Porter',
       id: 3,
+    },
+    {
+      name: 'chu',
+      price: 10599,
+      thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/basicdreams4-56bdaf1cd56e51447616522147418108-640-0.png',
+      stock: 3,
+      description:
+        'Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras...',
+      size: 'L',
+      vendor: 'Bubbling Brews',
+      type: 'Porter',
+      id: 4,
     },
   ];
   

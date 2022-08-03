@@ -4,7 +4,7 @@ import ItemContainer from './ItemContainer';
 
 const Item = (item) => {
   const onAdd = (qty) => {
-    alert(`Has agregado ${qty} cervezas 🍺`);
+    alert(`Has añadido ${qty} al carrito`);
   };
 
   return (

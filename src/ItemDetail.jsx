@@ -1,12 +1,9 @@
 import React from 'react';
 import ItemContainer from './ItemContainer';
 
-
-//ItemDetail recibe los datos del producto encontrado por id previamente y los muestra
-
 const ItemDetail = ({ item }) => {
   const onAdd = (qty) => {
-    alert(`Has agregado ${qty} cervezas 🍺`);
+    alert(`Has agregado ${qty}`);
   };
 
   console.log(item);

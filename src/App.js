@@ -11,11 +11,7 @@ export default function App() {
       <NavBar />
       <Hero title="Hysteria Shop" />
       <ItemListContainer />
-
-      {/* Este componente ItemDetailContainer recibe por prop el id de un producto
-      Encuentra ese producto entre el array de productos y muestra el detalle del
-      producto pasándolo al componente ItemDetail */}
-      <ItemDetailContainer id={3} />
+  
     </>
   );
 }

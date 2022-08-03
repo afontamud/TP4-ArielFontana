@@ -1,19 +1,13 @@
 import React from 'react';
 
-
 const Hero = ({ title }) => {
-  //Declaro una variable donde voy a almacenar la ruta de la imagen que quiero mostrar
-
-  //la lógica va siempre antes del return
   return (
     <section className="hero hero-slide-1">
       <div className="hero-container">
         <article className="hero-container__text-box">
-          <h1>{title}</h1>
-          <p>
-            ¡La mente muy clara y la cerveza muy fría! Vení a conocer las
-            mejores cervezas del inframundo.
-          </p>
+          <h1>Hysteria Shop</h1>
+          <h3>Mira nuestro nuevo Drop #RUIDO</h3>
+          <p>A favor del ruido, en contra del silencio</p>
           <button className="button-primary">Comprar</button>
         </article>
       </div>
