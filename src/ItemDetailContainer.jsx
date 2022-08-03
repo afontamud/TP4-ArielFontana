@@ -1,5 +1,5 @@
 import React from 'react';
-import React, { useEffect, useState } from 'react';
+import react, { useEffect, useState } from 'react';
 import { getProductById } from '../helpers/getData.js';
 import ItemDetail from './ItemDetail';
 import './styles/ItemDetailContainer.css';

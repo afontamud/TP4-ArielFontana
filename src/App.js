@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ItemListContainer from './ItemListContainer';
+import NavBar from './NavBar';
+import Hero from './Hero';
+import ItemDetailContainer from './ItemDetailContainer';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Hero title="Hysteria Shop" />
+      <ItemListContainer />
+
+      {/* Este componente ItemDetailContainer recibe por prop el id de un producto
+      Encuentra ese producto entre el array de productos y muestra el detalle del
+      producto pasándolo al componente ItemDetail */}
+      <ItemDetailContainer id={3} />
+    </>
   );
 }
-
-export default App;
