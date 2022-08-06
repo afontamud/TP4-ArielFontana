@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemContainer from './ItemContainer';
+import ItemCount from './ItemCount';
 
 
 const Item = (item) => {
@@ -15,7 +15,7 @@ const Item = (item) => {
 
       <span className="product-card__name">${item.price}</span>
 
-      <ItemContainer stock={item.stock} onAdd={onAdd} initial={1} />
+      <ItemCount stock={item.stock} onAdd={onAdd} initial={1} />
     </article>
   );
 };

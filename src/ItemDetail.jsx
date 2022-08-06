@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemContainer from './ItemContainer';
+import ItemCount from './ItemCount';
 
 const ItemDetail = ({ item }) => {
   const onAdd = (qty) => {
@@ -23,7 +23,7 @@ const ItemDetail = ({ item }) => {
           <li>Type:</li>
           <li>{item.type}</li>
         </ul>
-        <ItemContainer stock={item.stock} initial={1} onAdd={onAdd} />
+        <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
       </div>
     </article>
   );

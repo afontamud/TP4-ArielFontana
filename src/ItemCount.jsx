@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 
-const ItemContainer = ({ initial, stock, onAdd }) => {
+const ItemCount = ({ initial, stock, onAdd }) => {
   const [qty, setQty] = useState(initial);
 
   const addProduct = (num) => {
@@ -40,4 +40,4 @@ const ItemContainer = ({ initial, stock, onAdd }) => {
   );
 };
 
-export default ItemContainer;
+export default ItemCount;
