@@ -1,6 +1,6 @@
 export const productList = [
     {
-      name: 'Sublime Hope Dose',
+      name: 'Buzo Istressed Feelings',
       price: 7399,
       thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/distresseddd21-53d912071a01d6b6a016522132263631-640-0.png',
       stock: 6,
@@ -12,7 +12,7 @@ export const productList = [
       id: 1,
     },
     {
-      name: 'Hopped Sublime Dose',
+      name: 'Remera Lil Teeth',
       price: 13599,
       thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/veneno-1-0-r04-negra1-34599e99f4e52a291a16494415016705-640-0.png',
       stock: 10,
@@ -24,7 +24,7 @@ export const productList = [
       id: 2,
     },
     {
-      name: 'Curious Tiki Aura',
+      name: 'Remera blanca FireBoy',
       price: 10599,
       thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/sad-world31-4ce56a632ec8016b2216589328486173-640-0.png',
       stock: 6,
@@ -36,7 +36,7 @@ export const productList = [
       id: 3,
     },
     {
-      name: 'chu',
+      name: 'Breker Luck',
       price: 10599,
       thumbnail:'https://d3ugyf2ht6aenh.cloudfront.net/stores/821/674/products/basicdreams4-56bdaf1cd56e51447616522147418108-640-0.png',
       stock: 3,
